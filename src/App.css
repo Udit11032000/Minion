@@ -1,38 +1,143 @@
-.App {
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.Navlinks
+{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+}
+
+/*.App{
+  margin-left: 50px;
+  margin-right: 50px;
+}*/
+
+
+.Minions
+{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Righteous', cursive;
+  font-size: 35px;
+  color:#FFE02E;
+ 
+  font-weight: bold;
+  padding-left: 70px;
+
+}
+
+.col-minion
+{
+  margin-top: 0px;
+  font-family: 'Righteous', cursive;
+  font-size: 150px;
+  background-color: #ffd700;
+  color: white;
+
+}
+.minion-svg
+{
+  display: block !important;
+}
+
+.minion-bello
+{
+  font-family: 'Righteous', cursive;
+  font-size: 150px;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y:auto;
+}
+
+.paragraph
+{
+  font-size: 30px;
+  padding-left: 80px;
+}
+
+.image-dimension
+{
+  padding-left: 60px;
+  height: 400px;
+}
+
+.image-dimension-two
+{
+  padding-left: 60px;
+  height: 350px;
+}
+
+.container{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 100% !important;
+}
+
+.Navmybar
+{
+  font-family: 'Righteous', cursive;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.minion-about
+{
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+  padding-left: 80px;
+  padding-top: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details
+{
+  font-size: 15px;
+  text-align: center;
+}
+@media only screen and (max-width: 1295px) {
+  .minion-bello
+{
+  font-family: 'Righteous', cursive;
+  font-size: 60px;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.paragraph
+{
+  font-size: 20px;
+  padding-left: 80px;
+}
+.image-dimension
+{
+  padding-left: 60px;
+  height: 200px;
+}
+.image-dimension-two
+{
+  padding-left: 60px;
+  height: 155px;
+}
+.minion-about
+{
+  font-family: 'Righteous', cursive;
+  font-size: 60px;
+  padding-left: 80px;
+  padding-top: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
